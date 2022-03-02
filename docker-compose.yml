@@ -1,6 +1,7 @@
 version: "3.2"
 services:
   flask:
+    image: tkim911/heroku-cicd
     build: .
     restart: always
     ports:
